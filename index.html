@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5.7-dars</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="form hidden" id="form">
+        <input type="url" id="image">
+        <input type="text"  id="name" >
+        <input type="number"  id="number" >
+        <input type="number"  id="age" >
+        <h3 class="gender-title">Gender</h3>
+        <div class="gender-wrapper">
+            <label for="">Male:
+                <input type="radio" id="gender" name="gender" value="Male">
+            </label>
+            <label for="">Female:
+                <input type="radio" id="gender" name="gender" value="Female">
+            </label>
+        </div>
+        <button class="btn" id="btn" type="submit">Submit</button>
+    </form>
+    <button class="reg-btn" id="reg-btn">Create  User</button>
+    <ul class="site-list" id="site-list"></ul>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
